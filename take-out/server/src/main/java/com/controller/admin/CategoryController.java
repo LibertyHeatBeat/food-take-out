@@ -24,7 +24,8 @@ import java.util.List;
 public class CategoryController {
     @Autowired
     private CategoryService categoryService;
-
+    @Autowired
+    private CategoryService categoryService1;
     /**
      * 分类分页查询
      * @param categoryPageQueryDTO
